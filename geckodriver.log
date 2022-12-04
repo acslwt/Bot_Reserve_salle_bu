@@ -1117,3 +1117,42 @@ webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173
 JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\ayoub\AppData\Local\Temp\rust_mozprofilezIyrjH\thumbnails) because it does not exist
 JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\ayoub\AppData\Local\Temp\rust_mozprofilezIyrjH\thumbnails) because it does not exist
 1669500516621	Marionette	INFO	Stopped listening on port 62911
+1670148196324	geckodriver	INFO	Listening on 127.0.0.1:57077
+1670148199384	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ayoub\\AppData\\Local\\Temp\\rust_mozprofileCGAkff"
+1670148200082	Marionette	INFO	Marionette enabled
+1670148200088	Marionette	INFO	Listening on port 57089
+Read port: 57089
+1670148200541	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ayoub\\AppData\\Local\\Temp\\rust_mozprofileCGAkff\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+1670148641188	geckodriver	INFO	Listening on 127.0.0.1:57458
+1670148644282	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ayoub\\AppData\\Local\\Temp\\rust_mozprofileLkPjEa"
+1670148644893	Marionette	INFO	Marionette enabled
+1670148644899	Marionette	INFO	Listening on port 57470
+Read port: 57470
+1670148645438	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ayoub\\AppData\\Local\\Temp\\rust_mozprofileLkPjEa\\search.json.mozlz4", (void 0)))
+1670149060014	geckodriver	INFO	Listening on 127.0.0.1:57618
+1670149063097	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ayoub\\AppData\\Local\\Temp\\rust_mozprofilec7gJSQ"
+1670149063689	Marionette	INFO	Marionette enabled
+1670149063696	Marionette	INFO	Listening on port 57630
+Read port: 57630
+1670149064147	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ayoub\\AppData\\Local\\Temp\\rust_mozprofilec7gJSQ\\search.json.mozlz4", (void 0)))
+1670149149585	geckodriver	INFO	Listening on 127.0.0.1:57664
+1670149152661	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ayoub\\AppData\\Local\\Temp\\rust_mozprofileJS5Gmq"
+1670149153209	Marionette	INFO	Marionette enabled
+1670149153214	Marionette	INFO	Listening on port 57676
+Read port: 57676
+1670149153488	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ayoub\\AppData\\Local\\Temp\\rust_mozprofileJS5Gmq\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+1670149183846	Marionette	INFO	Stopped listening on port 57676
+1670149222407	geckodriver	INFO	Listening on 127.0.0.1:57706
+1670149225508	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ayoub\\AppData\\Local\\Temp\\rust_mozprofileZIZce5"
+1670149225999	Marionette	INFO	Marionette enabled
+1670149226004	Marionette	INFO	Listening on port 57718
+Read port: 57718
+1670149226163	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ayoub\\AppData\\Local\\Temp\\rust_mozprofileZIZce5\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri

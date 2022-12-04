@@ -42,11 +42,18 @@ driver.maximize_window()
 for i in range(3,len(salle_libre)):
   actual_date_reserve = datetime.datetime.today()+datetime.timedelta(i)
   print(actual_date_reserve)
-  url = "https://affluences.com/bu-sciences-1/reservation?type=3381&date="+str(actual_date_reserve.year)+"-"+str(actual_date_reserve.month)+"-"+str(actual_date_reserve.day)
+  day = actual_date_reserve.day
+  month = actual_date_reserve.month
+  if day<10:
+        day = "0"+str(day)
+  if month<10:
+        day = "0"+str(month)
+        
+  url = "https://affluences.com/bu-sciences-1/reservation?type=3381&date="+str(actual_date_reserve.year)+"-"+str(month)+"-"+str(day)
   driver.get(url)
-  print("tu es sur la page")
+  print("tu es sur la page : "+url)
   for hour in salle_libre[i]:
-    current_hour = "//button[text()=' "+str(hour)+":00 AM ']"
+    current_hour = "//button[text()=' "+str(hour%12)+":00 AM ']"
     heure_reserve = driver.find_elements_by_xpath(current_hour)
     number_reserve_possible = len(heure_reserve)
     print("Nombre reservation possible : "+str(number_reserve_possible))
